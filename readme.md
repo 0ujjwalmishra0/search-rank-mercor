@@ -1,6 +1,3 @@
-## 📘 **README.md — Mercor Re-Ranking Assignment**
-
-````markdown
 # 🚀 Mercor Search Re-Ranking Assignment
 
 ## 📖 Overview
@@ -13,11 +10,11 @@ Each query corresponds to a `.yml` configuration provided by Mercor (e.g., `tax_
 
 ## 🧩 Architecture Overview
 
-1. **Query Embedding** — Queries are embedded using the `voyage-3` model from VoyageAI.  
-2. **Candidate Retrieval** — The top-K candidates are retrieved from a Turbopuffer namespace (`search-test-v4`) using approximate nearest neighbor (ANN) search on 1024-dim embeddings.  
+1. **Query Embedding** — Queries are embedded using the `voyage-3` model from VoyageAI.
+2. **Candidate Retrieval** — The top-K candidates are retrieved from a Turbopuffer namespace (`search-test-v4`) using approximate nearest neighbor (ANN) search on 1024-dim embeddings.
 3. **Re-Ranking** — The retrieved results are optionally re-ranked using:
-   - Rule-based hard-criteria matching (`degree`, `experience`, `country`).
-   - Keyword boosting based on query text overlap.
+    - Rule-based hard-criteria matching (`degree`, `experience`, `country`).
+    - Keyword boosting based on query text overlap.
 4. **Evaluation** — The final top 10 `_id`s are submitted to the Mercor `/evaluate` endpoint for each `.yml` config.
 
 ---
@@ -28,6 +25,7 @@ Each query corresponds to a `.yml` configuration provided by Mercor (e.g., `tax_
 ```bash
 git clone https://github.com/<your_username>/mercor-re-ranking.git
 cd mercor-re-ranking
+
 ````
 
 ### 2. Create environment and install dependencies
