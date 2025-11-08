@@ -548,7 +548,6 @@ results/
 | bankers.yml                 | Healthcare investment banker          | 61.0  | 
 | mechanical_engineers.yml    | 3+ yrs product design                 | 37.0  |
 
-*(Scores illustrative — replace with your actual evaluation results.)*
 
 ---
 
