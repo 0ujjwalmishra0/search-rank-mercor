@@ -535,18 +535,18 @@ results/
 
 ## 📊 Evaluation Summary (Example)
 
-| Config                      | Description                           | Score | Precision@10 |
-| --------------------------- | ------------------------------------- | ----- | ------------ |
-| tax_lawyer.yml              | JD, 3+ yrs corporate tax              | 0.82  | 0.70         |
-| junior_corporate_lawyer.yml | 2–4 yrs M&A support                   | 0.78  | 0.68         |
-| radiology.yml               | MD, imaging expertise                 | 0.80  | 0.71         |
-| doctors_md.yml              | General practitioner (US)             | 0.83  | 0.72         |
-| biology_expert.yml          | PhD, molecular biology                | 0.85  | 0.75         |
-| anthropology.yml            | PhD (in progress), migration research | 0.77  | 0.65         |
-| mathematics_phd.yml         | PhD, stochastic modeling              | 0.82  | 0.70         |
-| quantitative_finance.yml    | MBA + 3 yrs quant finance             | 0.86  | 0.76         |
-| bankers.yml                 | Healthcare investment banker          | 0.84  | 0.72         |
-| mechanical_engineers.yml    | 3+ yrs product design                 | 0.80  | 0.68         |
+| Config                      | Description                           | average_final_score |
+| --------------------------- | ------------------------------------- | ----- | 
+| tax_lawyer.yml              | JD, 3+ yrs corporate tax              | 67.0  | 
+| junior_corporate_lawyer.yml | 2–4 yrs M&A support                   | 21.6  | 
+| radiology.yml               | MD, imaging expertise                 | 65.6  | 
+| doctors_md.yml              | General practitioner (US)             | 0.0   |
+| biology_expert.yml          | PhD, molecular biology                | 28.0  |
+| anthropology.yml            | PhD (in progress), migration research | 9.0   |
+| mathematics_phd.yml         | PhD, stochastic modeling              | 0.0   |
+| quantitative_finance.yml    | MBA + 3 yrs quant finance             | 25.0  |
+| bankers.yml                 | Healthcare investment banker          | 61.0  | 
+| mechanical_engineers.yml    | 3+ yrs product design                 | 37.0  |
 
 *(Scores illustrative — replace with your actual evaluation results.)*
 
